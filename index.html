@@ -19,13 +19,31 @@
     </div>
     <div class="right">
         <div class="text-container">
-            <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</h3>
+            <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <span style="display: block;">Sign up now to get started</span></h3>
             <h3>You know you want to</h3>
         </div>
         <form action="#">
             <h3>Let's do this!</h3>
+            <div class="inputs">
+                <div>
+                    <p><label for="firstName">First Name</label></p>
+                    <input type="text" id="firstName" name="firstName">
+                    <p><label for="email">Email</label></p>
+                    <input type="email" id="email" name="email">
+                    <p><label for="password">Password</label></p>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div>
+                    <p><label for="lastName">Last Name</label></p>
+                    <input type="text" id="lastName" name="lastName">
+                    <p><label for="phone">Phone Number</label></p>
+                    <input type="tel" id="phone" name="phone">
+                    <p><label for="confirmPassword">Confirm Password</label></p>
+                    <input type="confirmPassword" id="confirmPassword" name="confirmPassword">
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
         </form>
-        <button type="submit">Create Account</button>
         <p>Already have an account? <a href="#">Log in</a></p>
     </div>
 </body>
